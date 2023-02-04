@@ -1,0 +1,27 @@
+{
+	"name": "crudBackend",
+	"version": "1.0.0",
+	"description": "creating reading updateing and deleting user",
+	"main": "index.js",
+	"author": "yared",
+	"license": "MIT",
+	"scripts": {
+		"start": "node ./server/index",
+		"dev": "nodemon ./server/index"
+	},
+	"dependencies": {
+		"connect-mongo": "^4.6.0",
+		"cookie-parser": "^1.4.6",
+		"express": "^4.18.2",
+		"express-session": "^1.17.3",
+		"http-errors": "^2.0.0",
+		"mongoose": "^6.8.3",
+		"nodemon": "^2.0.20"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.20.7",
+		"@babel/node": "^7.20.7",
+		"@babel/preset-env": "^7.20.2",
+		"dotenv": "^16.0.3"
+	}
+}
